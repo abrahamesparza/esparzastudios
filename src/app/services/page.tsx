@@ -39,45 +39,4 @@ export default function Services() {
       </div>
     </main>
   );
-
-  // const [selectedSercice, setSelectedService] = useState(null)
-
-  // const handleServiceClick = (index) => {
-  //   setSelectedService(index)
-  // }
-
-  // const handleCloseModal = () => {
-  //   setSelectedService(null)
-  // }
-  
-  //   return (
-  //     <main className={styles.main}>
-  //       <Link className={styles.homeLink} href={'/'}>Home</Link>
-  //       <div className={styles.bodyContainer}>
-  //         <ul className={styles.services}>
-  //         {services['data'].map((item: any, index: number) => (
-  //           <div className={styles.listParent} key={item.id}>
-  //             <li
-  //             className={styles.service}
-  //             onClick={() => handleServiceClick(index)}
-  //             >
-  //               {item.service}
-  //               </li>
-  //               {selectedSercice === index && (
-  //                 <div className={styles.modal}>
-  //                   <div className={styles.modalContent}>
-  //                     <div>{item.price}</div>
-  //                     <div>{item.description}</div>
-  //                     <h4 onClick={handleCloseModal}>Close</h4>
-  //                   </div>
-  //                 </div>
-  //               )}
-  //             {/* <li className={styles.price}>{item.price}</li>
-  //             <li className={styles.description}>{item.description}</li> */}
-  //           </div>
-  //         ))}
-  //         </ul>
-  //       </div>
-  //     </main>
-  //   );
   }
