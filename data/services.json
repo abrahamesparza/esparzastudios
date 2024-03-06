@@ -1,0 +1,16 @@
+{
+    "webDevelopment": [
+        {
+            "id": 0,
+            "service": "Single Page Website",
+            "price": "$500",
+            "description": "Perfect for showcasing a specific product, service, or portfolio, it offers simplicity and easy navigation. With smooth transitions and engaging design elements, a single page website delivers a concise yet impactful user experience."
+        },
+        {
+            "id": 1,
+            "service": "Multi Page Website",
+            "price": "$1,000+",
+            "description": "Separate pages for different sections such as home, about, services, portfolio, and contact, it allows for detailed storytelling, enhanced SEO, and flexibility in presenting various aspects of your offerings. Ideal for businesses looking to showcase a wide range of products, services, or information."
+        }
+    ]
+}
