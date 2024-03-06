@@ -16,9 +16,11 @@ export default function Services() {
 
   return (
     <main className={styles.main}>
-      <Link className={styles.homeLink} href={'/'}>
-        Home
-      </Link>
+      <div className={styles.header}>
+        <h1>E S P A R Z A<br/>
+            S T U D I O S
+        </h1>
+      </div>
       <div className={styles.bodyContainer}>
         <ul className={styles.services}>
           <li
@@ -37,6 +39,9 @@ export default function Services() {
           ))}
         </ul>
       </div>
+      <Link className={styles.homeLink} href={'/'}>
+        Home
+      </Link>
     </main>
   );
   }
