@@ -29,7 +29,6 @@ export default function Services() {
           >
             WEB DEVELOPMENT
           </li>
-          {/* Services for WEB DEVELOPMENT */}
           {webDevelopmentVisible && services['webDevelopment'].map((item) => (
             <div className={styles.listParent} key={item.id}>
               <li className={styles.service}>{item.service}</li>
